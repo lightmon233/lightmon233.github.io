@@ -1,8 +1,8 @@
-languageCode = "ja"
-languageName = "Japanese"
+# languageCode = "ja"
+# languageName = "Japanese"
 # disabled = false
-# locale = "ja"
-# label = "日本語"
+locale = "ja"
+label = "Japanese"
 weight = 3
 title = "光monの静的ブログ"
 

@@ -1,8 +1,8 @@
-languageCode = "zh-cn"
-languageName = "Simplified Chinese"
+# languageCode = "zh-cn"
+# languageName = "Simplified Chinese"
 # disabled = false
-# locale = "zh-cn"
-# label = "简体中文"
+locale = "zh-cn"
+label = "Simplified Chinese"
 weight = 1
 title = "光mon's 静态博客小站"
 

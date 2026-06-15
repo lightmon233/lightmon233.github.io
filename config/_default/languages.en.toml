@@ -1,8 +1,8 @@
-languageCode = "en"
-languageName = "English"
+# languageCode = "en"
+# languageName = "English"
 # disabled = false
-# locale = "en"
-# label = "English"
+locale = "en"
+label = "English"
 weight = 2
 title = "Lightmon's Static Blog"
 
