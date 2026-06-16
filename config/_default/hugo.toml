@@ -20,6 +20,9 @@ enableEmoji = true
 
 # googleAnalytics = "G-XXXXXXXXX"
 
+[markup.goldmark.renderer]
+  unsafe = true
+
 [pagination]
   pagerSize = 100
 
