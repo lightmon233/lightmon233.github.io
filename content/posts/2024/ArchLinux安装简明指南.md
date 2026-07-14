@@ -122,7 +122,7 @@ Server = http://mirror.lzu.edu.cn/archlinux/\(repo/os/\)arch # 兰州大学开�
 ## 安装ArchLinux到`/mnt`
 
 ```bash
-pacstrap -i /mnt base base-devel linux linux-lts linux-headers linux-firmware intel-ucode [amd-ucode](amd的cpu) sudo nano vim git neofetch networkmanager dhcpcd pulseaudio [bluez](蓝牙模块) [wpa_supplicant](wlan)
+pacstrap -i /mnt base base-devel linux [linux-lts] linux-headers linux-firmware intel-ucode [amd-ucode](amd的cpu) sudo nano vim git [neofetch](deprecated) fastfetch networkmanager dhcpcd [pulseaudio](deprecated) pipewire [bluez](蓝牙模块) [wpa_supplicant](wlan)
 ```
 
 ## 生成文件系统表（FSTAB）
