@@ -66,7 +66,7 @@ MTool大家在Windows上都很熟悉了，自然会想到用他来翻译游戏�
 
 1. 把MTool取消勾选精简UI
 
-![取消精简UI](img/2026/取消精简Ui.png)
+![取消精简UI](img/2026/取消精简UI.png)
 
 2. 勾选`Wait for external game and inject`
 
@@ -75,6 +75,8 @@ MTool大家在Windows上都很熟悉了，自然会想到用他来翻译游戏�
 接着选择游戏文件，点击`Start Game`:
 
 ![识别到游戏](img/2026/识别到游戏.png)
+
+> 后来才发现这里已经自动翻译好了……
 
 成了！工具可以识别到游戏了，接下来导入翻译文件测试一下！
 
