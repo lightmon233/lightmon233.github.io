@@ -7,6 +7,8 @@ categories: ["技术折腾", "娱乐游戏"]
 tags: ["RPG Maker", "黄油", "proton"]
 ---
 
+{{< blogcard "https://www.dlsite.com/maniax/work/=/product_id/RJ01590123.html/?locale=zh_CN" >}}
+
 最近一直在使用NixOS作为自己的主力系统。我对这个系统十分中意，一份配置文件到处生成系统的特性非常符合我随时随地重装系统的性癖。
 
 说到性癖，长期与[NixOS](nixos.org)的相处也使我错失了很多发展新XP的机会。
