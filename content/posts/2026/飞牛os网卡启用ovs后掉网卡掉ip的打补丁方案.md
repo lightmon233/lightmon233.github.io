@@ -1,7 +1,7 @@
 ---
 title: "飞牛os网卡启用ovs后掉网卡掉ip的打补丁方案"
 date: 2026-11-12T16:53:37+08:00
-draft: true
+draft: false
 description: ""
 categories: ["技术折腾"]
 tags: ["飞牛os", "虚拟机", "计算机网络", "ovs"]
