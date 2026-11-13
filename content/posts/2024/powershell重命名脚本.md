@@ -41,3 +41,40 @@ Get-ChildItem -Path . -Filter "*.mkv" | ForEach-Object {
     }
 }
 ```
+
+附bash版：
+
+```bash
+#!/usr/bin/env bash
+
+shopt -s nullglob nocaseglob
+
+pattern='卷([0-9]+)'
+
+for file in *.mkv; do
+    # 排除 rename.mkv
+    [[ "${file,,}" == "rename.mkv" ]] && continue
+
+    # 提取文件名和扩展名
+    fileName="${file%.*}"
+    extension="${file##*.}"
+
+    if [[ "$fileName" =~ $pattern ]]; then
+        # 提取第一个捕获组，即卷号
+        match="${BASH_REMATCH[1]}"
+
+        newName="S01E${match}.${extension}"
+
+        # 防止覆盖已有文件
+        if [[ -e "$newName" ]]; then
+            echo "跳过：目标文件已存在 $newName"
+            continue
+        fi
+
+        mv -- "$file" "$newName"
+        echo "$file -> $newName"
+    else
+        echo "No match found: $file"
+    fi
+done
+```
